@@ -10,3 +10,5 @@ ASP.NET in:
  * Controllers\HomeController.cs
  * App_Start\FormState.cs
  * App_Start\RouteConfig.cs
+ 
+Other files were from template

@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<h1>Cache: @ViewBag.cache</h1>
+<div class="jumbotron">
+    <h1>Triburon Test</h1>
+    
+    <form method="post" class="my_form" action="#">
+        <h3>Ваш пол</h3>
+        <div class="radio">
+            <label>
+                <input type="radio" name="gender_radio" id="optionsRadios1" value="male" >
+               Мужской
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" name="gender_radio" id="optionsRadios2" value="female">
+               Женский
+            </label>
+        </div>
+ 
+        ­  
+        <h3>Марка вашего телефона</h3>
+          <div>
+            <label>
+                <input name="cell_name[]" type="checkbox" value="Apple">
+                Apple
+            </label>
+              </div><div>
+    <label>
+        <input name="cell_name[]" type="checkbox" value="Samsung">
+        Samsung
+    </label>
+</div><div>
+    <label>
+        <input name="cell_name[]" type="checkbox" value="LG">
+        LG
+    </label>
+</div><div>
+    <label>
+        <input name="cell_name[]" type="checkbox" value="HTC">
+        HTC
+    </label>
+</div><div>
+    <label>
+        <input name="cell_name[]" type="checkbox" value="Nokia">
+        Nokia
+    </label>
+</div><div>
+    <label>
+        <input name="cell_name[]" type="checkbox" value="Other">
+        Другое
+    </label>
+</div>
+    <button type="submit" class="btn btn-default">Ответить</button>
+</form>
+    <div id="response"></div>
+
+
+
+</div>
+
